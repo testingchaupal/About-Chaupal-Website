@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@media (min-width:1200px) {
+section.res-display_wrapper{
+   margin-top: 20px;
+   padding-bottom: 0px;
+}
+.stores{
+    width: 40%;
+}
+.video_wrapper .app_size img {width: 190px;}
+section.video_wrapper{
+    margin-top: 40px !important;
+}
+#footer{
+    margin-top: 30px !important;
+}
+}
+
+@media (max-with:1230px) {
+}
+
+@media (max-with:1070px) {
+}
+
+
+/*Responsive Code*/
+@media (max-width:991px) {
+.banner_wrapper{
+    padding: 150px 0 80px 0 !important;
+}
+.header_wrapper .navbar
+{
+    padding: 20px 0;
+}
+    /* custom css */
+    section {
+        padding: 30px 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    /* 2 Navbar */
+    .header-scrolled {
+        height: auto;
+    }
+
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: 15px;
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+
+    /* banner wrapper */
+    .banner_wrapper {
+        padding: 100px 0 50px 0;
+		min-height: auto;
+    }
+
+    /* About */
+    .about_wrapper ul.nav-pills{
+        width:61%;
+        margin:auto;
+
+    }
+    .rdeviced {
+    height: auto;
+    width: 100%;
+}
+
+    /* portfolio */
+    .portfolio_wrapper .card {
+        min-height: 400px;
+    }
+	
+	  .footer-menu {
+    padding-left: 0;
+  }
+  .widget-about img {
+    max-width: 50%;
+  }
+
+}
+
+@media (max-width: 767px) {
+.banner_wrapper{
+    padding: 120px 0 50px 0 !important;
+}
+
+.header_wrapper .main-black-btn {padding: 7px 8px;
+	background-color: #f6d917;
+    border: 0px solid var(--gray-color);
+    color: #1b1714;letter-spacing: 0;
+}
+	
+.img_nav {
+    margin: 0;
+}
+.streaming-now {
+    margin: 0;
+    margin-bottom: -30px !important;
+}
+.section {
+    margin: 15px 0;
+}
+	
+	
+    /* custom css */
+    h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+	h6 {font-size: 13px;}
+
+    p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+	.stores{ width: 80%; }
+	/*.banner_wrapper .main-appstore img {width: 125px;}*/
+	
+	.video_wrapper .app_size img {width: 140px;}
+	
+	.footer-big {padding: 20px 0 10px 0;}
+	
+	.footer-big .footer-widget {
+  margin-bottom: 16px;
+}
+
+    /* About */
+    .about_wrapper ul.nav-pills{
+        width:100%;
+        margin:auto;
+        border:0;
+    }
+    .about_wrapper ul li .nav-link {
+        font-size: 13px;
+    } 
+
+    /* portfolio */
+    .portfolio_wrapper .card {
+        min-height: 500px;
+    }
+} 
+
+@media (max-width:576px){
+.header_wrapper .main-black-btn{
+    margin: 5px 5px;
+}
+.header_wrapper .navbar {
+    padding: 12px 0;
+}
+#media-left-scrolling-section .swiper-button-next{
+    top: 36px !important;
+}
+#media-left-scrolling-section .swiper-button-prev{
+    top: 36px !important;
+}
+.streaming-now {
+    padding: 30px 5px;
+}
+#media-left-scrolling-section .swiper-heading{
+    height: 82px;
+    margin-top: 0px;
+}
+#services .card {
+    margin: 5px 10px;
+}
+#services h3{
+    padding: 0px 10px;
+    margin-bottom: 0px !important;
+}
+#Chaupal-Premiers h3 {
+    padding: 0px 0px;
+    margin-bottom: 10px !important;
+}
+#Chaupal-Premiers{
+    padding: 20px;
+}
+section#res-display{
+   padding: 30px 5px;
+}
+section#video{
+   padding: 30px 5px;
+}
+section.img_nav{
+    padding: 0px 5px;
+}
+.rdeviced{
+    height: auto !important;
+    width: 100%;
+}
+section#test{
+    display: none;
+}
+.mySwiper03 .swiper-button-prev{
+    width: auto !important;
+    padding: 0px 2px;
+    border-radius: 0px;
+}
+.mySwiper03 .swiper-button-next{
+    width: auto !important;
+    padding: 0px 2px;
+    border-radius: 0px;
+}
+.mySwiper03 .swiper-button-prev:after{
+   font-size: 22px;
+   height: 28px !important;
+}
+.mySwiper03 .swiper-button-next:after{
+   font-size: 22px;
+   height: 28px !important;
+}
+#footer ul.quick-links li{
+  text-align: center !important;
+  display: inline-block;
+}
+#footer ul.quick-links li a{
+    padding-right: 10px;
+}
+#footer h5{
+    text-align: center;
+}
+#footer .list-unstyled{
+    text-align: center;
+}
+#footer button.read{
+    display: block;
+    margin: auto;
+}
+#footer p{
+  text-align: center;
+  padding: 0px 10px;
+}
+.hero-investors{
+    text-align: center !important;
+}
+}
+@media only screen and (min-width: 576px) and (max-width: 991px){
+    #services .card{
+        margin-bottom: 10px;
+    }
+}
