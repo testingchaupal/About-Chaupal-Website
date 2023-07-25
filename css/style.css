@@ -1712,7 +1712,7 @@ h3 a{
         display: block;
     }
     #photos-cast .row .col{
-        padding: 10px 20px;
+        padding: 15px 0px !important;
     }
     #cast-outlaw h3{
         font-size: 24px;
