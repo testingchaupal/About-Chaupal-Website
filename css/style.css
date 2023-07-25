@@ -1751,4 +1751,10 @@ h3 a{
     #investorspage #devices-outlaw-page{
         padding: 50px 10px !important;
     }
+    #photos-cast{
+	    padding:50px 20px;
+    }
+	#photos-cast h3{
+		margin-bottom:15px;
+	}
 }
