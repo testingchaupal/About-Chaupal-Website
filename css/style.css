@@ -1567,7 +1567,7 @@ h3 a{
     padding-top: 70px !important;
 }
 #hero-outlaw .hero-outlaw-h2{
-    font-size: 38px;
+    font-size: 34px;
     text-align: center;
     font-weight: 600;
     letter-spacing: 2px;
@@ -1624,13 +1624,13 @@ h3 a{
 #photos-cast .row .col{
     padding: 4px !important;
 }
-#photos-cast h3{
+#photos-cast h2{
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
     font-weight: 600;
 }
-#photos-cast h3 span{
+#photos-cast h2 span{
     color: #f6d917;
 }
 #hero-outlaw .hero-outlaw-h2 span{
@@ -1712,7 +1712,7 @@ h3 a{
         display: block;
     }
     #photos-cast .row .col{
-        padding: 10px 0px !important;
+        padding: 10px 20px;
     }
     #cast-outlaw h3{
         font-size: 24px;
@@ -1751,10 +1751,37 @@ h3 a{
     #investorspage #devices-outlaw-page{
         padding: 50px 10px !important;
     }
-    #photos-cast{
-	    padding:50px 20px;
-    }
-	#photos-cast h3{
-		margin-bottom: 10px !important;
-	}
+}
+
+/* Article Section */
+#article-outlaw{
+    background-color: #0a0a0a;
+    padding: 50px 0px;
+}
+#article-outlaw h1{
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 44px;
+    letter-spacing: 2px;
+    color: #f6d917;
+}
+#article-outlaw p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-align: justify;
+}
+#article-outlaw h4{
+    color: #f6d917;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+}
+#article-outlaw img{
+    border-radius: 10px;
+    margin: 10px 0px;
+    width: 100%;
+}
+#article-outlaw a{
+    color: #6da0ed;
 }
