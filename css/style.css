@@ -1561,7 +1561,6 @@ h3 a{
     margin: 6px 0px;
 }
 
-
 /* Outlaw Page */
 #investorspage #hero-outlaw{
     padding-top: 70px !important;
@@ -1712,7 +1711,7 @@ h3 a{
         display: block;
     }
     #photos-cast .row .col{
-        padding: 10px 20px;
+        padding: 10px 15px !important;
     }
     #cast-outlaw h3{
         font-size: 24px;
@@ -1784,4 +1783,10 @@ h3 a{
 }
 #article-outlaw a{
     color: #6da0ed;
+}
+@media (max-width:550px){
+    #article-outlaw h1{
+        font-size: 22px;
+        line-height: 30px;
+    }
 }
