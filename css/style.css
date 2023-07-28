@@ -1714,11 +1714,13 @@ h3 a{
     #photos-cast .row .col{
         padding: 10px 15px !important;
     }
+    #photos-cast h2{
+	margin-left:15px !important;
+    }
     #cast-outlaw h3{
         font-size: 22px;
         font-weight: 400;
         margin-bottom: 15px !important;
-	margin-left:10px !important;
         letter-spacing: 1px;
         font-family: 'Montserrat', sans-serif;
     }
