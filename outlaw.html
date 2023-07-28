@@ -236,6 +236,56 @@
 </section>
 <!-- End Chaupal Originals -->
 
+<!-- Coming soon Originals -->
+<section id="comingsoon-outlaw-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h3>Upcoming<span> Movies </span>And <span>Series</span>  </h3>	
+			</div>
+			<div class="col-12">
+				<div class="swiper mySwiper-comingsoon">
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="https://onelink.to/g3at6h">
+								<img src="images/lehmberginni-ranjit-bawa-mahira-sharma-chaupal.jpg" alt="lehmberginni-ranjit-bawa-mahira-sharma-chaupal" class="img-fluid" title="Lehmbarginni">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://onelink.to/g3at6h">
+								<img src="images/hawa-gurjazz-hashneen-chauhan-punjabi-movie-chaupal.jpg" alt="hawa-gurjazz-hashneen-chauhan-punjabi-movie-chaupal" class="img-fluid" title="Hawa">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://onelink.to/g3at6h">
+								<img src="images/panchhi-2-prince-kanwal-jitsingh-chaupal.jpg" alt="panchhi-2-prince-kanwal-jitsingh-chaupal" class="img-fluid" title="Panchhi 2">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://onelink.to/g3at6h">
+								<img src="images/shahi-majra-ninja-outlaw-chaupal.jpg" alt="shahi-majra-ninja-outlaw-chaupal" class="img-fluid" title="Shahi Majra">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://onelink.to/g3at6h">
+								<img src="images/silence-parmish-verma-chaupal.jpg" alt="silence-parmish-verma-chaupal" class="img-fluid" title="Silence">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="https://onelink.to/g3at6h">
+								<img src="images/zila-sangrur-2-prince-kanwaljit-chaupal.jpg" alt="zila-sangrur-2-prince-kanwaljit-chaupal" class="img-fluid" title="Zila Sangrur 2">
+							</a>
+						</div>
+					</div>                      
+				</div>	
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Chaupal Originals -->
+
 <!-- Section features -->
 <section id="features-outlaw-page">
 	<div class="container">
@@ -297,7 +347,7 @@
 					</div>                      
 				</div>				
 				<div>
-					<img src="images/artists.png" alt="punjabi-artists" class="img-fluid" title="Punjabi Artists" />
+					<img src="images/Artists.png" alt="punjabi-artists" class="img-fluid" title="Punjabi Artists" />
 				</div>
 			</div>
 		</div>
@@ -665,6 +715,7 @@
 	});
 	});
 </script>	
+
 <script type="text/javascript">
 	var $owl = $('.owl-carousel2');
 	$owl.children().each( function( index ) {
@@ -706,6 +757,7 @@
 		  $owl.trigger('to.owl.carousel', [$(this).data( 'position' ), $speed] );
 		});
 	</script>
+
 	<script>
 	var swiper = new Swiper(".mySwiper01", {
 		slidesPerView: 1,
@@ -726,6 +778,40 @@
 			},
 			1024: {
 				slidesPerView: 1,
+				spaceBetween: 20,
+			},
+		},
+
+		autoplay: {
+			delay: 4000,
+			disableOnInteraction: false,
+		},
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+	});
+</script>
+	<script>
+	var swiper = new Swiper(".mySwiper-comingsoon", {
+		slidesPerView: 1,
+		spaceBetween: 10,
+		loop: true,
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		},
+		breakpoints: {
+			320: {
+				slidesPerView: 1,
+				spaceBetween: 10,
+			},
+			768: {
+				slidesPerView: 3,
+				spaceBetween: 10,
+			},
+			1024: {
+				slidesPerView: 4,
 				spaceBetween: 20,
 			},
 		},
