@@ -1718,6 +1718,7 @@ h3 a{
         font-size: 22px;
         font-weight: 400;
         margin-bottom: 15px !important;
+	margin-left:10px !important;
         letter-spacing: 1px;
         font-family: 'Montserrat', sans-serif;
     }
