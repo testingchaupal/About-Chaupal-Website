@@ -1609,7 +1609,7 @@ h3 a{
     padding: 15px 30px;
     font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
-	font-size:20px;
+    font-size:20px;
 }
 #cast-outlaw h3{
     font-size: 22px;
@@ -1720,6 +1720,15 @@ h3 a{
         margin-bottom: 15px !important;
         letter-spacing: 1px;
         font-family: 'Montserrat', sans-serif;
+    }
+    #cast-outlaw a.btn-1{
+        color: #000;
+	background-color: #f6d917;
+	border: 2px solid #f6d917;
+	padding: 15px 28px;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 10px;	  
+	font-size:18px;
     }
 }
 #features-outlaw-page{
