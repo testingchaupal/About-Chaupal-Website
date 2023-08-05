@@ -1127,7 +1127,7 @@ cursor: default;
 
 
 .streaming-now {
-    margin: 30px 0 15px 0;
+    padding:40px 0px;
 }
 .streaming-now img{
     box-shadow: 0 0 3px #292424;
