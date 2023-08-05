@@ -1561,10 +1561,24 @@ h3 a{
     margin: 6px 0px;
 }
 
+/* main page maya section */
+section#maya-service{
+    padding: 50px 0px;
+    padding-bottom: 30px !important;
+}
+section#maya-service img{
+    border-radius: 10px;
+}
+@media (max-width:575px){
+    section#maya-service{
+        padding: 25px 10px;
+        padding-bottom: 0px !important;
+    }
+}
 /* Outlaw Page */
 #investorspage #hero-outlaw{
     padding-top: 70px !important;
-    background-color: #0a0a0a;
+    background-color: #000;
 }
 #hero-outlaw .hero-outlaw-h2{
     font-size: 34px;
@@ -1590,7 +1604,7 @@ h3 a{
 }
 #cast-outlaw{
     padding: 50px 0px;
-    background-color: #000;
+    background-color: #0a0a0a;
 }
 #cast-outlaw ul li{
     color: #fff;
@@ -1616,6 +1630,12 @@ h3 a{
     font-weight: 400;
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
+}
+#maya-outlaw-page{
+    padding: 50px 0px;
+}
+#maya-outlaw-page img{
+    border-radius: 10px;
 }
 #photos-cast{
     background-color: #0a0a0a;
