@@ -1183,7 +1183,7 @@ cursor: default;
     
     .streaming-now-mobile{
         display: block;
-        padding-bottom: 10px !important;
+        padding-bottom: 40px !important;
     }
     .streaming-now-mobile .container{
         padding: 0px 20px;
