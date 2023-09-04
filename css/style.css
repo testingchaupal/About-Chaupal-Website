@@ -1811,6 +1811,13 @@ section#maya-service img{
     letter-spacing: 2px;
     color: #f6d917;
 }
+#article-outlaw h2{
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 44px;
+    letter-spacing: 2px;
+    color: #f6d917;
+}
 #article-outlaw p{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -1835,7 +1842,11 @@ section#maya-service img{
     #article-outlaw h1{
         font-size: 22px;
         line-height: 30px;
-    }   
+    }  
+    #article-outlaw h2{
+        font-size: 22px;
+        line-height: 30px;
+    }  
 }
 #comingsoon-outlaw-page .swiper-button-next:after{
     font-size: 16px !important;
