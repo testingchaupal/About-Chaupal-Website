@@ -1,0 +1,147 @@
+/*------------------------------------------------------------------------
+# Free Splash HTML Templates - Feb 3, 2018
+# ------------------------------------------------------------------------
+# Designed & coded by Awe7 Team
+# Websites:  http://www.awe7.com -  Email: info@awe7.com
+--------------------------------------------------------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 16px;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #787878;
+  background-color: #fff;
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2e4bfd;
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+h2,
+.h2 {
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.33333;
+  color: #1c1c1c;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.hero-section,
+.hero-section__wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section .container,
+.hero-section__wrap .container {
+  z-index: 2;
+  position: relative;
+  /*-webkit-transform: translateY(-50%);
+          transform: translateY(-50%);*/
+}
+
+/*.hero-section__wrap {
+  height: 100vh;
+}*/
+
+.hero-section__wrap .title__heading {
+  text-align: center;
+}
+
+.hero-section__wrap .title__heading > span + strong.hero-section__words {
+  text-align: left;
+}
+
+.hero-section__words {
+  position: relative;
+}
+
+.hero-section__words .title__effect {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.hero-section__words .title__effect.is-visible {
+  position: relative;
+  opacity: 1;
+}
+
+
+/* --------------------------------
+
+xclip
+
+-------------------------------- */
+.hero-section.clip .title__heading > span,
+.hero-section.clip .title__effect {
+  display: inline-block;
+  padding: .2em 0;
+}
+
+.hero-section.clip .hero-section__words {
+  overflow: hidden;
+  vertical-align: top;
+  padding: 0px;
+  margin: 0px;
+}
+
+.hero-section.clip .hero-section__words::after {
+  /* line */
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  right: 0;
+}
+
+.hero-section.clip .title__effect {
+  opacity: 0;
+  left: 0px;
+}
+
+.hero-section.clip .title__effect.is-visible {
+  opacity: 1;
+  padding: auto 0px !important;
+}
+
