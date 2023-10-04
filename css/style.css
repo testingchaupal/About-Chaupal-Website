@@ -788,6 +788,7 @@ section.web-series .owl-theme{
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 24px;
 	letter-spacing:1px;
+	text-transform:uppercase;
 }
 @media (max-width:575px){
 	#cards .card{
