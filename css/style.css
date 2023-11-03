@@ -2117,3 +2117,34 @@ h2.logo-text{
   border-radius: 2px;
   font-family: 'swiper-icons' !important;
 }
+/* Thank You Page */
+section#thankyou{
+	background-image: url('../images/Movies 2023 Dark.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+section#thankyou .logo-text{
+	text-transform: uppercase;
+}
+#thankyou h1{
+	font-size: 60px !important;
+}
+#thankyou h2{
+	font-size: 40px !important;
+}
+#thankyou-page header .navbar-brand img{
+	opacity: 1;
+}
+@media (max-width:575px){
+	#thankyou h1{
+		font-size: 30px !important;
+	}
+	#thankyou h2{
+		font-size: 20px !important;
+	}
+}
