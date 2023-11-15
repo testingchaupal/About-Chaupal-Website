@@ -90,6 +90,20 @@
 </section>
 <!-- End Hero Section -->
 
+<!-- mastaney Popup -->
+<div id="bkgOverlay" class="backgroundOverlay"></div>
+<div id="delayedPopup" class="delayedPopupWindow">
+  <!-- This is the close button -->
+  <a href="#" id="btnClose" class="btnclose" title="Click here to close this deal box.">x</a>
+  <div id="mc_embed_signup" class="pb-2">
+    <img src="images/mastanay-movie-jassar-article-chaupal.jpg" class="img-fluid">
+  </div>
+  <div class="py-2 text-end">
+      <a href="https://chaupal.page.link/mastaney" class="popup-btn"> Watch Now</a>
+  </div>
+</div>
+<!-- End Popup Code -->
+	
 <!-- Streaming Now Section -->
 <section class="streaming-now">
 	<div class="container-fluid">
@@ -1063,6 +1077,28 @@
           $owl.trigger('to.owl.carousel', [$(this).data( 'position' ), $speed] );
     });
 </script>
+<script type="text/javascript">
+    $(document).ready(function ()
+{
+    //Fade in delay for the background overlay (control timing here)
+    $("#bkgOverlay").delay(4800).fadeIn(400);
+  //Fade in delay for the popup (control timing here)
+    $("#delayedPopup").delay(5000).fadeIn(400);
+    
+    //Hide dialouge and background when the user clicks the close button
+    $("#btnClose").click(function (e)
+    {
+        HideDialog();
+        e.preventDefault();
+    });
+});
+//Controls how the modal popup is closed with the close button
+function HideDialog()
+{
+    $("#bkgOverlay").fadeOut(400);
+    $("#delayedPopup").fadeOut(300);
+}
 
+</script>
 </body>
 </html>
