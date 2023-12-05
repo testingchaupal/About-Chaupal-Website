@@ -2098,3 +2098,86 @@ section#maya-service img{
 .maya-medal-page{
     background-color: #0a0a0a !important;
 }
+
+/*   This is the background overlay   */
+.backgroundOverlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000000;
+	opacity: .85;
+	filter: alpha(opacity=85);
+	-moz-opacity: .85;
+	z-index: 101;
+	display: none;
+}
+/*   This is the Popup Window   */
+.delayedPopupWindow {
+	display: none;
+	position: fixed;
+	width: auto;
+	max-width: 580px;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	margin-left: -260px;
+	margin-top: -180px;
+	background-color: #000;
+	border: 2px solid #f6d917;
+	z-index: 102;
+	padding: 10px 20px;
+}
+/*   This is the closing button  */
+#btnClose {
+	width:100%;
+	display: block;
+	text-align: right;
+	text-decoration: none;
+}
+.btnclose{
+	-webkit-text-fill-color: #f6d917; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #f6d917;
+  font-size: 20px;
+}
+.popup-btn{
+	background-color: transparent;
+	color: #f6d917;
+	padding: 10px 40px;
+	text-decoration: none;
+	border: 2px solid #f6d917;
+	transition: .5s;
+}
+.popup-btn:hover{
+	border: 2px solid #f6d917;
+	color: #000;
+	background-color: #f6d917;
+}
+/*   This is the closing button hover state  */
+#btnClose:hover {
+	color: #34032d;
+}
+@media (max-width:550px){
+.delayedPopupWindow {
+	display: none;
+	position: fixed;
+	width: auto;
+	max-width: 480px;
+	height: auto;
+	top: 40%;
+	left: 0%;
+	margin-left: 0px;
+	margin-top: -100px;
+	background-color: #000;
+	border: 1px solid #f6d917;
+	z-index: 102;
+	padding: 0px 7px;
+	padding-bottom: 10px !important;
+}
+}
