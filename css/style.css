@@ -2230,6 +2230,8 @@ section#thankyou .logo-text{
 	padding-bottom: 10px !important;
 }
 }
+
+
 /* Faq page css */
 .faq-heading{
 	font-family: 'Barlow Condensed', sans-serif;
@@ -2320,8 +2322,8 @@ section#thankyou .logo-text{
 
 .faq .card .card-header .faq-title .badge {
   display: inline-block;
-  line-height: 14px;
-  float: left;
+  line-height: 20px;
+  float: right;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
@@ -2329,7 +2331,13 @@ section#thankyou .logo-text{
   background: #f6d917;
   color: #000;
   font-size: 12px;
-  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: -5px;
+ /* transition: .5s;
+  transform: rotate(90deg);*/
+  height: 24px;
+  width: 24px;
+  padding:2px;
 }
 
 .faq .card .card-body {
@@ -2353,7 +2361,19 @@ section#thankyou .logo-text{
     margin-bottom: 30px;
   }
   .faq .card .card-header .faq-title {
-    line-height: 26px;
-    margin-top: 10px;
+    line-height: 20px;
+    margin-top: 0px;
+    padding: 15px 15px;
+    padding-right: 50px !important;
+  }
+  .faq .card .card-header .faq-title .badge{
+  	margin-right: -35px;
+  	height: 20px;
+  	width: 20px;
+  	font-size: 10px;
+  	line-height: 15px;
+  }
+  .faq .card .card-body{
+  	padding: 20px !important;
   }
 }
