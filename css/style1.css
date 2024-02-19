@@ -2128,7 +2128,7 @@ section#maya-service img{
 	left: 50%;
 	margin-left: -260px;
 	margin-top: -180px;
-	background-color: #580056;
+	background-color: transparent;
 	border: 0px solid #f6d917;
 	z-index: 102;
 	padding: 0px 0px;
@@ -2140,7 +2140,7 @@ section#maya-service img{
 	display: block;
 	text-align: right;
 	text-decoration: none;
-	padding-right:10px;
+	padding-right:0px;
 }
 .btnclose{
 	-webkit-text-fill-color: #f6d917; /* Will override color (regardless of order) */
@@ -2176,14 +2176,11 @@ section#maya-service img{
 	left: 2%;
 	margin-left: 0px;
 	margin-top: -100px;
-	background-color: #580056;
+	background-color: transparent;
 	border: 0px solid #f6d917;
 	z-index: 102;
 	padding: 0px 0px;
 	padding-bottom: 0px !important;
 }
-	#btnClose{
-		padding-right:10px;
-	}
 }
 
