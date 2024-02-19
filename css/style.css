@@ -2225,12 +2225,15 @@ section#thankyou .logo-text{
 	left: 0%;
 	margin-left: 0px;
 	margin-top: -100px;
-	background-color: #000;
-	border: 1px solid #f6d917;
+	background-color: #580056;
+	border: 0px solid #f6d917;
 	z-index: 102;
-	padding: 0px 7px;
-	padding-bottom: 10px !important;
+	padding: 0px 0px;
+	padding-bottom: 0px !important;
 }
+	#btnClose{
+		padding-right:10px;
+	}
 }
 
 
