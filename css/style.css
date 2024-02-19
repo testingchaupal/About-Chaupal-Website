@@ -2180,7 +2180,8 @@ section#thankyou .logo-text{
 	background-color: #580056;
 	border: 2px solid #f6d917;
 	z-index: 102;
-	padding: 10px 20px;
+	padding: 0px 0px;
+	padding-bottom:10px !important;
 }
 /*   This is the closing button  */
 #btnClose {
