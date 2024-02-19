@@ -2189,7 +2189,7 @@ section#thankyou .logo-text{
 	display: block;
 	text-align: right;
 	text-decoration: none;
-	margin-right:10px;
+	padding-right:10px;
 }
 .btnclose{
 	-webkit-text-fill-color: #f6d917; /* Will override color (regardless of order) */
