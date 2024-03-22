@@ -1783,6 +1783,11 @@ h2.logo-text{
 	color: #fff;
 	text-align: justify;
 }
+.article-coj li span{
+	color: #f6d917;
+	font-weight:600;
+	text-align: justify;
+}
 #article-outlaw h4{
     color: #f6d917;
     font-family: 'Montserrat', sans-serif;
